@@ -1,0 +1,10 @@
+package template;
+
+public enum Designation {
+	
+	TEAM_LEADER,
+	DEVELOPER,
+	SENIOR_DEVELOPER,
+	MARKETING_MANAGER,
+	MARKETING_CONSULTANT;
+}
