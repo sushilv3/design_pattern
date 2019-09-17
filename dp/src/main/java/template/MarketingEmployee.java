@@ -11,17 +11,8 @@ public class MarketingEmployee extends AbsEmployee {
 		MarketingEmployee.companyName = "ABC Ltd";
 	}
 
-	@Override
-	public String getDetails() {
 
-		return "";
-	}
-
-	@Override
-	public void work() {
-
-	}
-
+	
 	@Override
 	protected int salary() {
 		int commission = 1000;
@@ -31,5 +22,15 @@ public class MarketingEmployee extends AbsEmployee {
 	@Override
 	public String toString() {
 		return "BackOfficeEmployee [" + super.toString() + " Company Name " + companyName + "]";
+	}
+
+	public String getDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void work() {
+		// TODO Auto-generated method stub
+		
 	}
 }
